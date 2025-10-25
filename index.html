@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EcoWash — Миючі рідини для дому</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header container">
+    <a href="#" class="brand">
+      <div class="brand__logo">EW</div>
+      <h2>EcoWash</h2>
+    </a>
+    <nav class="nav">
+      <a href="#home">Головна</a>
+      <a href="#products">Продукція</a>
+      <a href="#about">Про нас</a>
+      <a href="#contact">Контакти</a>
+      <button class="cta">Замовити</button>
+    </nav>
+  </header>
+
+  <section class="hero container" id="home">
+    <div class="hero__left">
+      <div class="hero-bubble">
+        <h1>Чистота без компромісів 🌿</h1>
+      </div>
+      <p>Безпечні, біорозкладні миючі рідини для дому, кухні та ванної кімнати. З турботою про довкілля та вашу родину.</p>
+      <div class="hero__actions">
+        <button class="cta">Переглянути товари</button>
+        <div class="hero__pill">
+          <span>♻️ Екологічно чисто</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero__product">
+      <img src="https://cdn-icons-png.flaticon.com/512/1049/1049953.png" alt="Eco Bottle" />
+      <h3>Універсальний очищувач</h3>
+      <p>Натуральна формула з лимоном і м’ятою</p>
+    </div>
+  </section>
+
+  <section class="container">
+    <div class="controls">
+      <div class="search">
+        <input type="text" placeholder="Пошук товарів..." />
+      </div>
+      <select class="select">
+        <option>Категорія</option>
+        <option>Для кухні</option>
+        <option>Для ванної</option>
+        <option>Для скла</option>
+      </select>
+      <select class="sort">
+        <option>Сортувати за</option>
+        <option>Ціна ↑</option>
+        <option>Ціна ↓</option>
+        <option>Популярність</option>
+      </select>
+    </div>
+
+    <div class="products" id="products">
+      <div class="card ribbon fade-up">
+        <div class="ribbon-badge">-15%</div>
+        <div class="card__media">
+          <img src="https://cdn-icons-png.flaticon.com/512/2934/2934071.png" alt="Рідина для скла">
+        </div>
+        <h3 class="card__title">Рідина для миття скла</h3>
+        <p class="card__desc">Чиста прозорість без розводів, аромат свіжості.</p>
+        <div class="card__meta">
+          <span class="price">₴89</span>
+          <span class="badge">Новинка</span>
+        </div>
+        <div class="card__actions">
+          <button class="btn">Додати</button>
+          <button class="btn secondary">Деталі</button>
+        </div>
+      </div>
+
+      <div class="card fade-up">
+        <div class="card__media">
+          <img src="https://cdn-icons-png.flaticon.com/512/1049/1049976.png" alt="Універсальний засіб">
+        </div>
+        <h3 class="card__title">Універсальний засіб</h3>
+        <p class="card__desc">Для підлог, меблів і плитки. Свіжий аромат цитрусів.</p>
+        <div class="card__meta">
+          <span class="price">₴119</span>
+          <span class="badge">Хіт</span>
+        </div>
+        <div class="card__actions">
+          <button class="btn">Додати</button>
+          <button class="btn secondary">Деталі</button>
+        </div>
+      </div>
+
+      <div class="card fade-up">
+        <div class="card__media">
+          <img src="https://cdn-icons-png.flaticon.com/512/2799/2799728.png" alt="Засіб для кухні">
+        </div>
+        <h3 class="card__title">Засіб для кухні</h3>
+        <p class="card__desc">Ефективно видаляє жир, без шкідливих хімікатів.</p>
+        <div class="card__meta">
+          <span class="price">₴99</span>
+          <span class="badge">Еко</span>
+        </div>
+        <div class="card__actions">
+          <button class="btn">Додати</button>
+          <button class="btn secondary">Деталі</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="container" id="contact">
+    <h2>Зв’язатися з нами</h2>
+    <form class="form">
+      <div class="form-row">
+        <input type="text" class="input" placeholder="Ваше ім’я" required />
+        <input type="email" class="input" placeholder="Електронна пошта" required />
+      </div>
+      <textarea rows="4" class="input" placeholder="Ваше повідомлення..."></textarea>
+      <button type="submit" class="btn">Надіслати</button>
+    </form>
+  </section>
+
+  <footer class="footer container">
+    <small>© 2025 EcoWash. Усі права захищено.</small>
+    <div class="links">
+      <a href="#">Facebook</a>
+      <a href="#">Instagram</a>
+      <a href="#">YouTube</a>
+    </div>
+  </footer>
+</body>
+</html>
